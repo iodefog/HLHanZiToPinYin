@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "HLHanZiToPinYin"
   s.version      = "0.0.1"
-  s.summary      = "A short description of HLHanZiToPinYin."
+  s.summary      = "汉字转换成拼音，不收字符串，字母等影响"
 
   s.description  = <<-DESC
                    A longer description of HLHanZiToPinYin in Markdown format.
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "lihongli" => "lihongli" }
+  s.author             = { "lihongli" => "592658688@qq.com" }
   # Or just: s.author    = "lihongli"
   # s.authors            = { "lihongli" => "lihongli" }
   # s.social_media_url   = "http://twitter.com/lihongli"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/lihongli528628/HLHanZiToPinYin", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/lihongli528628/HLHanZiToPinYin", :tag=>"0.0.1"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
